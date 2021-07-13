@@ -7,20 +7,53 @@ body{
 	padding: 0;
 }
 
+
+
 /* banner style start */
-
-
-
 .container{
-	display: grid;
-	grid-template-columns: repeat(2,1fr);
-
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 	background-color: royalblue;
+	
+}
+.banner-heading{
+
+
 }
 .banner-heading h1{
+
 	font-size: 30px;
+	color: white;
+	font-size: 64px;
+	font-weight:700;
+	margin: 121px 102px 27px 156px;
+
+
 }
-.banner-player-img img{
+.watch-button{
+	width: 168px;
+	height: 44px;
+	padding: 10px 24px 10px 24px;
+	margin: 27px 419px 169px 156px;
+	font-size:16px;
+	font-weight: 500;
+	text-decoration: none;
+	background-color: #e02c6d;
+	border-radius: 5px;
+	color: white;
+
+}
+.fa-arrow-right{
+	margin-left:5px;
+	color: white;
+}
+.banner-player{
+
+}
+.banner-player img{
 	width: 556px;
 	height: 438px;
+	margin: 153px 140.99px 86px 102px;	
 }
