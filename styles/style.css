@@ -66,6 +66,11 @@ span a {
   position: absolute;
 }
 
+.banner-heading a:hover{
+  /* transform: scale(.3) rotate(360deg); */
+
+}
+
 .fa-arrow-right {
   width: 16px;
   height: 14px;
@@ -79,6 +84,12 @@ span a {
   margin: 153px 140.99px 86px 51px;
   position: sticky;
 }
+
+ .banner-player img:hover{
+    transform: scale(.4) rotate(360deg);
+    transition:transform 1s ease .3s;
+ }
+
 
 .banner-player:hover {
   width: 1000x;
@@ -128,6 +139,7 @@ height:474px; */
   border-radius: 5px;
   margin: 16px 15px 15px 15px;
 }
+
 .player-description h2 {
   margin: 8px 15px 5px 15px;
 }
