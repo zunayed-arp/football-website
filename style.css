@@ -16,7 +16,6 @@ body {
   background-color: royalblue;
 }
 
-
 .banner-heading h1 {
   color: white;
   font-size: 64px;
@@ -39,7 +38,7 @@ body {
 .fa-arrow-right {
   width: 16px;
   height: 14px;
-  margin:15px 28px 15px 4px;
+  margin: 15px 28px 15px 4px;
   color: white;
 }
 
@@ -49,38 +48,31 @@ body {
   margin: 153px 140.99px 86px 51px;
 }
 
-
-
 /*-------------------------*\ 
 \* individual Player section
 \*--------------------------*/
 
 .player-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-
-
-
-
-/* width: 1050px;
+  /* width: 1050px;
 height:474px; */
-margin: 70px 225px 27px 180px;
- 
-/* border: 1px solid black; */
+  margin: 70px 225px 27px 180px;
+
+  /* border: 1px solid black; */
 }
 
 .player-card {
-
   width: 330px;
-  height:474px;
+  height: 474px;
   box-shadow: 0 0 10px royalblue;
   /* border: 1px solid black; */
   /* margin: 70px 210px 27px 180px; */
   margin-left: 16px;
-  
+
   padding: 8px 7px;
   border-radius: 10px;
 }
@@ -110,12 +102,40 @@ margin: 70px 225px 27px 180px;
 /*-------------------------*\ 
 \* Blog Start
 \*--------------------------*/
+.blog-container{
+	display: gird;
+	grid-template-columns: repeat(2,1fr);
+}
+.blog-paragraph{
+	width: 466px;
+	height: 309px;
+	border: 1px solid black;
+}
 
-.watch-button {
-  width: 168px;
+.blog-description h3{
+width: 466px;
+height: 120px;
+font-size:48px;
+line-height: 60px;
+font-weight: 700px;
+color: black;
+
+}
+.blog-description p{
+	width: 404px;
+	height: 113px;
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 400;
+	color: 6c6c6c;
+	padding-bottom: 24pxpx;
+}
+
+.blog-button {
+  width: 173px;
   height: 44px;
   padding: 10px 4px 10px 24px;
-  margin: 27px 419px 169px 156px;
+  margin: 
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
@@ -124,7 +144,8 @@ margin: 70px 225px 27px 180px;
   color: white;
   position: absolute;
 }
-.blog-button{
-	width: 173px;
-	
+.blog-image img{
+	width: 567px;
+	height: 427px;
+	margin: 165px 239px 158px 69px;
 }
