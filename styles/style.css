@@ -209,8 +209,8 @@ height:474px; */
 .trend-head {
   text-align: center;
   padding: 10px 10px;
-  background-color: grey;
-  box-shadow: 0 0 20px grey;
+  background-color: whitesmoke;
+  box-shadow: 0 0 20px whitesmoke;
   margin: 50px 50px;
   border-radius: 15px;
   font-weight: 700;
@@ -227,7 +227,7 @@ height:474px; */
 .trend-container {
   width: 330px;
   height: 474px;
-  box-shadow: 0 0 10px grey;
+  box-shadow: 0 0 10px whitesmoke;
   margin-left: 16px;
   padding: 8px 7px;
   border-radius: 10px;
@@ -264,7 +264,7 @@ height:474px; */
 
   text-align: center;
   padding: 10px 10px;
-  background-color: grey;
+  background-color: whitesmoke;
   box-shadow: 0 0 20px whitesmoke;
   margin: 50px 50px;
   border-radius: 15px;
@@ -315,3 +315,35 @@ p {
   font-weight: 400px;
   margin-left: 10px 124px 0 124px;
 }
+
+
+/* Media Queries */
+
+/* Mobile Devices */
+
+@media only screen and (max-width:668px){
+
+  .banner-container{
+  flex-direction: column;
+  align-items: center;
+  }
+  .banner-player img{
+    width: 100%;
+  }
+.player-container, .blog-container, .partner-container{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  place-items: center;
+}
+.blog-container{
+  grid-template-columns: repeat(1,fr);
+
+}
+.footer-logo  img{
+  place-items: center;
+}
+
+}
+
+/* tablet devices */
+@media only screen and (min-width)
