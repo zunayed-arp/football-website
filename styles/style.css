@@ -70,6 +70,9 @@ body {
   color: white;
   position: absolute;
 }
+
+
+
 .fa-arrow-right {
   width: 16px;
   height: 14px;
@@ -77,11 +80,21 @@ body {
   color: white;
 }
 
+
 .banner-player img {
   width: 556px;
   height: 438px;
   margin: 153px 140.99px 86px 51px;
+  position: sticky;
 }
+
+
+.banner-player:hover{
+  width:1000x;
+  height: 1000x;
+
+}
+
 
 /*-------------------------*\ 
 \* individual Player section
@@ -118,6 +131,7 @@ height:474px; */
 .player-image {
   border-radius: 10px;
 }
+
 
 .player-image img {
   width: 300px;
@@ -202,6 +216,62 @@ height:474px; */
   margin: 165px 239px 158px 69px;
 }
 
+/* Trending */
+.trend-head{
+  text-align: center;
+  padding: 10px 10px;
+  background-color: whitesmoke;
+  box-shadow: 0 0 20px royalblue;
+  margin: 50px 50px;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 44px;
+}
+.trending{
+  /* display: grid;
+  grid-template-columns: repeat(3,430px);
+  grid-column-gap:50px ; */
+  display: flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+
+}
+.trend-container{
+  width: 330px;
+  height: 474px;
+  box-shadow: 0 0 10px royalblue;
+  margin-left: 16px;
+  padding: 8px 7px;
+  border-radius: 10px;
+  margin-bottom: 70px;
+}
+
+.trend-banner {
+  border-radius: 10px;
+}
+
+
+.trend-banner img {
+  width: 300px;
+  height: 256px;
+  border-radius: 5px;
+  margin: 16px 15px 15px 15px;
+}
+.trend-detail h2 {
+  margin: 8px 15px 5px 15px;
+}
+.trend-detail p {
+  width: 300px;
+  height: 104px;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 26px;
+  margin: 5px 15px 33px 15px;
+}
+
+
+
+
 /* footer */
 footer {
   display: grid;
@@ -211,7 +281,7 @@ footer {
   place-items: center;
 }
 
-.website-logo img {
+.footer-logo img {
   width: 483.87px;
 }
 
@@ -232,10 +302,12 @@ footer {
   color: grey;
 }
 
-.copyright p {
+p {
   width: 236px;
   height: 31px;
   font-size: 18px;
   font-weight: 400px;
   margin-left: 10px 124px 0 124px;
 }
+
+
