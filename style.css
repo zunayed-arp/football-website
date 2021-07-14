@@ -17,28 +17,29 @@ body {
 }
 
 .banner-heading h1 {
-  width: 485px;
-  height: 230;
-  font-size: 30px;
+  width: 30.313rem;
+  height: 14.375rem;
   color: white;
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 700;
-  margin: 121px 51px 27px 156px;
+  margin: 7.563rem 51px 3.188em 9.75rem;
 }
 .watch-button {
-  width: 168px;
-  height: 44px;
-  padding: 10px 24px 10px 24px;
-  margin: 27px 419px 169px 156px;
-  font-size: 16px;
+  width: 10.5rem;
+  height: 2.75rem;
+  padding: 0.625rem 0.25rem 0.625rem 1.5rem;
+  margin: 1.688rem 26.188rem 10.563rem 9.75rem;
+  font-size: 1em;
   font-weight: 500;
   text-decoration: none;
   background-color: #e02c6d;
-  border-radius: 5px;
+  border-radius: 0.313rem;
   color: white;
 }
 .fa-arrow-right {
-  margin-left: 5px;
+  width: 1rem;
+  height: 0.875rem;
+  margin:15px 28px 15px 4px;
   color: white;
 }
 .banner-player {
@@ -49,7 +50,9 @@ body {
   margin: 153px 140.99px 86px 51px;
 }
 
-/* Individual Player section */
+/*--------------------------*\ 
+  Individual Player section
+\*--------------------------*/
 
 .player-container {
   display: flex;
@@ -58,12 +61,11 @@ body {
 }
 
 .player-card {
- 
-  width: 330px;
-  height: 474px;
+  width: 20.625rem;
+  height: 29.625rem;
   box-shadow: 0 0 10px royalblue;
-  margin: 35px 210px 27px 180px;
-  padding: 8px 7.pxpx;
+  margin: 2.188 13.125rem 1.688rem 11.25rem;
+  padding: 0.5rem 0.438rem;
   border-radius: 10px;
 }
 
@@ -78,8 +80,7 @@ body {
   margin: 16px 15px 15px 15px;
 }
 .player-description h2 {
-	margin-top: 8px 15px 5px 15px;
-
+  margin-top: 8px 15px 5px 15px;
 }
 .player-description p {
   width: 300px;
