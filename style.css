@@ -54,13 +54,55 @@ body {
 
 .single-player-container{
 	display: inline-grid;
-	place-items: center;
-	display: flex;
-	justify-content: center;
-	/* grid-template-rows: 1fr 1fr 1fr; */
+
 	grid-template-columns: repeat(3,1fr);
-	margin: 70px 225px 70px 180px;
+	
+	/* align-items: center; */
+	/* justify-content: center; */
+	grid-row-gap:27px ;
+	grid-column-gap: 30px;
+	margin: 70px 210px 30px 180px; 
 }
+
+.player-card-grid{
+
+  width: 344px;
+  height:456px;
+  box-shadow: 0 0 10px royalblue;
+  /* margin-bottom: 30px; */
+  /* margin-right: 30px; */
+  /* border: 1px solid black; */
+  /* margin: 70px 210px 27px 180px; */
+  padding: 8px 7px;
+  border-radius: 10px;
+}
+
+
+
+.player-image-grid img {
+  width: 300px;
+  height: 256px;
+  border-radius: 5px;
+  margin: 16px 15px 15px 15px;
+}
+
+.player-description-grid h2 {
+  margin: 8px 15px 5px 15px;
+}
+.player-description-grid p {
+  width: 300px;
+  height: 104px;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 26px;
+  margin: 5px 15px 33px 15px;
+}
+
+/* .player-image-grid {
+  border-radius: 10px;
+} */
+
+
 
 
 
@@ -75,11 +117,12 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 
+
 /* width: 1050px;
 height:474px; */
 margin: 70px 225px 27px 180px;
  
-border: 1px solid black;
+/* border: 1px solid black; */
 }
 
 .player-card {
