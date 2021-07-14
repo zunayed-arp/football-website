@@ -331,9 +331,17 @@ p {
 
 @media only screen and (max-width:668px){
 
-  .banner-container, .trending{
+   .trending{
+    width: 100%;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
+  }
+  .navbar{
+    flex-wrap: wrap;
+  }
+  .banner-container{
+   flex-direction: column;
   }
   .banner-player img{
     width: 100%;
@@ -355,8 +363,12 @@ p {
 
 /* tablet devices */
 @media only screen and (min-width:688px) and (max-width:992px){
-    .banner-container{
+  
+  
+  .banner-container{
+    display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   
   }
   .banner-player img{
@@ -371,6 +383,7 @@ p {
 {
   display: grid;
   grid-template-columns: repeat(1,1fr);
+
 }
 .blog-detail{
   grid-template-columns: repeat(1,1fr);
