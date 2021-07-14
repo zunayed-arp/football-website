@@ -8,8 +8,6 @@ body {
 }
 
 /* navbar  */
-
-
  header{
      background-color:royalblue;
  }
@@ -18,7 +16,6 @@ body {
     justify-content: space-between;
     padding: 42px 124px 67px 156px;
 	
-     
  }
  span a{
     text-decoration: none;
